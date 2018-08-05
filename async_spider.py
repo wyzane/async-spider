@@ -161,13 +161,13 @@ class HealthSpider(object):
         # asyncio.ensure_future(self.start_spider(pool))
 
 
-def get_csv_data(keyword):
+def get_rules(keyword):
     """
     获取csv中的xpath规则
     :return:
     """
     csv_dict = []
-    path = os.path.join(os.path.dirname(__file__), 'spider.csv')
+    path = os.path.join(os.path.dirname(__file__), 'rules.csv')
     with open(path, 'rU') as f:
         reader = csv.DictReader(f)
         for line in reader:
@@ -188,7 +188,7 @@ def start_spider(keyword):
     :return:
     """
     try:
-        data_list = get_csv_data(keyword)
+        data_list = get_rules(keyword)
     except Exception as e:
         raise Exception("搜索规则获取失败")
     spider_data = []
