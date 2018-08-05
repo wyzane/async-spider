@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11bc32c-8695-4e83-9448-e904206647df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider.csv" beforeDir="false" afterPath="$PROJECT_DIR$/rules.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="162" />
+          <entry key="md" value="180" />
           <entry key="py" value="291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="162" />
+          <entry key="Markdown" value="180" />
           <entry key="Python" value="291" />
         </counts>
       </usages-collector>
@@ -72,9 +69,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
+            <state split_layout="FIRST">
               <first_editor relative-caret-position="145">
-                <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+                <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -151,6 +148,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/wemepriject/WEME_BE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,11 +181,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1613" height="1023" extended-state="6" />
+    <frame x="67" y="27" width="1409" height="888" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14131127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16239941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -248,9 +246,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
+        <state split_layout="FIRST">
           <first_editor relative-caret-position="145">
-            <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           </first_editor>
           <second_editor />
         </state>
