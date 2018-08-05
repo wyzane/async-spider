@@ -1,0 +1,4 @@
+url,hrule,trule,drule,count
+https://dxy.com/search/index?keyword={},"//div[starts-with(@class, ""col-article-list"")]/ul/li//h4/a/@href","//div[@class=""pg-article-hd""]/h1/text()","//div[@class=""editor-body""]",5
+http://search.ys137.com/cse/search?s=16605846358430827146&nsid=0&q={},"//div[@id=""results""]/div[starts-with(@class,""result f s0"")]//a/@href","//div[@class=""pull-left m-left article""]/h1/text() | //body/h4/text()","//div[@class=""article-content""]//tr/td",2
+http://zn.so.99.com.cn/cse/search?s=16144331773455717899&nsid=1&q={}&submit=,"//div[@id=""results""]/div[@class=""result f s0""]//a/@href","//div[@class=""detial_con""]/div[@class=""caption""]/h1/text() | //div[@class=""title_box""]/h1/text() | //section[@class=""article_top""]/h1/text()","//div[@class=""new_cont detail_con""]/p | //div[@class=""detial_con""]/p | //section[@class=""article_cont""]/p | //div[@class=""cont_mid""]",3
