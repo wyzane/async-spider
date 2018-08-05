@@ -2,7 +2,7 @@
 
 
 """
-https://www.haodf.com/- xpath- 异步入库- OK
+async-apiser xpath
 """
 
 
@@ -105,18 +105,18 @@ class HealthSpider(object):
 
         self.urls_done.append(url)
         # 数据入库,保存：用户id, 关键词, 日期, 主url, 子url, html数据
-        # if html_data:
-        #     self.spider_data["data"].append({"title": title, "html_data": html_data})
-        #     spide_date = datetime.now()
-        #     data = (self.user_id, self.keyword, spide_date, self.url, url, title, html_data)
-        #     stmt = "INSERT INTO spider_data (user_id, keyword, spide_date,  main_url, sub_url, title, html_data) " \
-        #            "VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        #     try:
-        #         async with pool.acquire() as conn:
-        #             async with conn.cursor() as cur:
-        #                 await cur.execute(stmt, data)
-        #     except Exception as e:
-        #         pass
+        if html_data:
+            self.spider_data["data"].append({"title": title, "html_data": html_data})
+            spide_date = datetime.now()
+            data = (self.user_id, self.keyword, spide_date, self.url, url, title, html_data)
+            stmt = "INSERT INTO spider_data (user_id, keyword, spide_date,  main_url, sub_url, title, html_data) " \
+                   "VALUES (%s, %s, %s, %s, %s, %s, %s)"
+            try:
+                async with pool.acquire() as conn:
+                    async with conn.cursor() as cur:
+                        await cur.execute(stmt, data)
+            except Exception as e:
+                pass
 
     async def start_spider(self, pool):
         """
@@ -214,4 +214,4 @@ def start_spider(keyword):
 
 
 if __name__ == '__main__':
-    start_spider("宝宝感冒了怎么办")
+    start_spider("感冒了怎么办")

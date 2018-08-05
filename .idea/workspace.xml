@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11bc32c-8695-4e83-9448-e904206647df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,55 +36,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="180" />
-          <entry key="py" value="291" />
+          <entry key="py" value="311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="180" />
-          <entry key="Python" value="291" />
+          <entry key="Python" value="311" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/async_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="190" column="38" lean-forward="true" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
+            <state relative-caret-position="518">
+              <caret line="216" column="18" lean-forward="true" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
               <folding>
                 <element signature="e#67#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requiremants.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="145">
-                <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <marker date="1533455259501" expanded="true" signature="38:300" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,8 +77,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/async_spider.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/async_spider.py" />
       </list>
     </option>
   </component>
@@ -231,26 +202,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="190" column="38" lean-forward="true" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
-          <folding>
-            <element signature="e#67#89#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="145">
+            <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requiremants.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="145">
-            <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/async_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="216" column="18" lean-forward="true" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+          <folding>
+            <element signature="e#67#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
